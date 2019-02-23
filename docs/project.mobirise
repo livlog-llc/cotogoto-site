@@ -53,9 +53,7 @@
     "google-analytics": "",
     "sitemapSwitcher": "on",
     "cookiesAlert": "We use cookies to give you the best experience. Read our <a href='privacy.html'>cookie policy</a>.",
-    "сanonical-url": "https://www.cotogoto.ai/",
-    "publishType": "local",
-    "publishPath": "file:///C:/Users/Hidekazu%20Aoshima/git/cotogoto-site/docs"
+    "сanonical-url": "https://www.cotogoto.ai/"
   },
   "pages": {
     "index.html": {
