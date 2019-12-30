@@ -23,7 +23,9 @@
         "display7Size": "1",
         "display4Font": "Noto Sans JP",
         "display4Size": "1",
-        "isScrollToTopButton": true
+        "isRoundedButtons": false,
+        "isScrollToTopButton": true,
+        "arrowColor": "#6278df"
       },
       "additionalSetColors": [
         "#19c50f",
@@ -41,9 +43,14 @@
       }
     ],
     "uniqCompNum": 28,
-    "versionPublish": "4.10.5",
+    "versionPublish": "4.10.10",
     "screenshot": "screenshot.png",
-    "gdpr": "当社のウェブサイトにアクセスすることにより、<a href='https://livlog-llc.github.io/terms-service/01_%E5%88%A9%E7%94%A8%E8%A6%8F%E7%B4%84'>利用規約</a>と<a href='https://livlog-llc.github.io/terms-service/02_%E3%83%97%E3%83%A9%E3%82%A4%E3%83%90%E3%82%B7%E3%83%BC%E3%83%9D%E3%83%AA%E3%82%B7%E3%83%BC'>プライバシーポリシー</a>に同意したことになります。",
+    "gdpr": {
+      "colorText": "#a7a7a7",
+      "colorLink": "#149dcc",
+      "underlineLink": false,
+      "text": "当社のウェブサイトにアクセスすることにより、<a href='https://livlog.jp/terms'>利用規約</a>と<a href='https://livlog.jp/privacy'>プライバシーポリシー</a>に同意したことになります。"
+    },
     "robotsText": "User-agent: *\r\nDisallow: /cgi-bin\r\n",
     "robotsSwitcher": "on",
     "siteUrl": "https://www.cotogoto.ai/",
@@ -52,7 +59,15 @@
     "noImageResize": "",
     "google-analytics": "<amp-analytics type=\"googleanalytics\">\r\n<script type=\"application/json\">\r\n{\r\n  \"vars\": {\r\n    \"account\": \"UA-49778613-2\"\r\n  },\r\n  \"triggers\": {\r\n    \"trackPageview\": {\r\n      \"on\": \"visible\",\r\n      \"request\": \"pageview\"\r\n    }\r\n  }\r\n}\r\n</script>\r\n</amp-analytics>",
     "sitemapSwitcher": "on",
-    "cookiesAlert": "We use cookies to give you the best experience. Read our <a href='privacy.html'>cookie policy</a>.",
+    "cookiesAlert": {
+      "colorText": "#424a4d",
+      "colorBg": "#eaeff1",
+      "colorButton": "#ffffff",
+      "colorLink": "#424a4d",
+      "underlineLink": true,
+      "opacity": "99",
+      "text": "リブログはクッキーを使ってサービスを提供しています。<a href='https://livlog.jp/cookie'> Cookieポリシー</a>をご覧ください。"
+    },
     "сanonical-url": "https://www.cotogoto.ai/"
   },
   "pages": {
